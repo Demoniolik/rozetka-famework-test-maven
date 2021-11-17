@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="RozetkaSmokeSuite" parallel="true" threadCount="3">
+    <test name = "SmokeTest">
+        <classes>
+            <class name = "SmokeTestSuite.tests.SuccessfulLoginTest"/>
+            <class name = "SmokeTestSuite.tests.DisplayRegistrationOverlayTest"/>
+            <class name = "SmokeTestSuite.tests.SearchTopBarTest"/>
+            <class name = "SmokeTestSuite.tests.SearchSideBarTest"/>
+            <class name = "SmokeTestSuite.tests.ProductComparisonTest"/>
+            <class name = "SmokeTestSuite.tests.ProductInvalidComparisonTest"/>
+            <class name = "SmokeTestSuite.tests.AddProductToBasketTest"/>
+            <class name = "SmokeTestSuite.tests.CalculateBasketSumTest"/>
+            <class name = "SmokeTestSuite.tests.SortingByPriceDescTest"/>
+            <class name = "SmokeTestSuite.tests.FilteringByPriceTest"/>
+        </classes>
+    </test>
+</suite>
